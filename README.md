@@ -66,7 +66,7 @@ The router provides the following services:
 
 ## Network Topology Diagram
 
-![Home Network Topology](topology.drawio.png)
+![Home Network Topology](topology.png)
 
 ---
 
