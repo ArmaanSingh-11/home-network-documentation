@@ -34,7 +34,6 @@ Router LAN Port Usage:
 
 ## Physical Topology Diagram
 
-```text
 Fiber ISP Line
       │
       ▼
