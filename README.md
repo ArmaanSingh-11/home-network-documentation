@@ -67,40 +67,28 @@ The router provides the following services:
 ## Network Topology Diagram
 
 ![Home Network Topology](topology.drawio.png)
+
 ---
 
 # 3. Addressing Documentation
 
-Network address range:
+Private IP addressing scheme:
 
-192.168.0.0/24
+Network Range: 192.168.1.0/24
 
-Subnet mask:
+Default Gateway: 192.168.1.1
 
-255.255.255.0
+DHCP Range: 192.168.1.100 – 192.168.1.200
 
-Default gateway:
+Device Address Table:
 
-192.168.0.1
-
-DNS servers:
-
-8.8.8.8
-8.8.4.4
-
-DHCP range:
-
-192.168.0.10 – 192.168.0.100
-
-Device address table:
-
-| Device | IP Address | Interface | Assignment |
-|--------|------------|-----------|------------|
-| Router | 192.168.0.1 | LAN | Static |
-| Desktop PC | 192.168.0.10 | Ethernet | DHCP |
-| Laptop | 192.168.0.11 | WiFi | DHCP |
-| Smartphone | 192.168.0.12 | WiFi | DHCP |
-| Smart TV | 192.168.0.13 | WiFi | DHCP |
+| Device | IP Address | Connection Type |
+|--------|------------|----------------|
+| Router | 192.168.1.1 | Ethernet |
+| Desktop | 192.168.1.10 | Ethernet |
+| Laptop | 192.168.1.20 | WiFi |
+| Smartphone | 192.168.1.30 | WiFi |
+| Smart TV | 192.168.1.40 | WiFi |
 
 ---
 
@@ -162,13 +150,11 @@ Frequency band: 5 GHz
 
 # 6. Secure Storage of Login Credentials
 
-Login credentials for the router and wireless network are stored securely using an encrypted password manager.
+All network login credentials are securely stored using Microsoft Edge Password Manager.
 
-Security measures implemented include:
+Additional protection methods:
 
-- Router default password changed
-- Strong passwords used
-- WPA2/WPA3 wireless encryption enabled
-- Credentials not stored in plain text
-- Remote management disabled
-
+- Strong passwords enabled
+- Two-factor authentication enabled
+- Router admin password changed from default
+- WiFi password secured using WPA2 encryption
