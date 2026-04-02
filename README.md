@@ -64,6 +64,9 @@ The router provides the following services:
 - DNS forwarding
 - Wireless access control
 
+## Network Topology Diagram
+
+![Home Network Topology](topology.drawio.png)
 ---
 
 # 3. Addressing Documentation
