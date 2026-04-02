@@ -65,9 +65,7 @@ The router provides the following services:
 - Wireless access control
 
 ## Network Topology Diagram
-
 ![Home Network Topology](topology.png)
-
 ---
 
 # 3. Addressing Documentation
